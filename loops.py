@@ -18,7 +18,7 @@ imprimir_contagem_ate_numero_digitado()
 
 def tabuada_de_adicao_dois():
     print("Tabuada de 2")
-    # Loop de 1 a 10 para imprimir a tabuada de adição do número 2
+    
     for i in range(1, 11):
         resultado = 2 + i
         print("2 + ", i, "=", resultado)
