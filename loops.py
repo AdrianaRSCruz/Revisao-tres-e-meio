@@ -25,3 +25,12 @@ def tabuada_de_adicao_dois():
 
 tabuada_de_adicao_dois()
 
+def tabuada_de_multiplicacao():
+    numero = int(input("Qual Tabuada de multiplicação deseja?: "))
+        
+    for i in range(1, 11):
+        resultado = numero * i
+        print(numero, " x ", i, "=", resultado)
+
+
+tabuada_de_multiplicacao()
